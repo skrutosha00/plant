@@ -101,7 +101,18 @@ document.querySelectorAll('.flower').forEach((flower, ind) => {
     }
 
     flower.onclick = () => {
-        if (!plants[ind]) { return }
+        if (!plants[ind]) {
+            openedNav = 1
+            document.querySelector('.nav_1').classList.add('open')
+            document.querySelector('.nav_2').classList.remove('open')
+
+            document.querySelector('.goods_1').classList.remove('none')
+            document.querySelector('.goods_2').classList.add('none')
+
+            footer.style.transform = 'translateY(0%)'
+            openedNav = null
+            return
+        }
 
         sellTab.style.left = '50%'
 
@@ -126,6 +137,15 @@ document.querySelectorAll('.flower').forEach((flower, ind) => {
 document.querySelector('.sell_tab_no').onclick = () => {
     sellTab.style.left = '-50%'
 }
+
+document.querySelector('.wrapper').addEventListener('click', (ev) => {
+    if (!(ev.target.classList.contains('wrapper') || ev.target.classList.contains('row'))) { return }
+
+    footer.style.transform = 'translateY(83%)'
+
+    document.querySelector('.nav_1').classList.remove('open')
+    document.querySelector('.nav_2').classList.remove('open')
+})
 
 window.onload = () => {
     document.querySelector('.wrapper').classList.remove('hidden')
