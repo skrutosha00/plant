@@ -1,0 +1,32 @@
+.wrapper {
+  padding-top: 30px;
+  padding-bottom: 40px;
+
+  height: auto;
+}
+
+.text {
+  width: 90%;
+  margin: 20px auto;
+  font-family: "Inter";
+
+  font-weight: 400;
+  text-align: left;
+}
+
+.button {
+  width: 269px;
+  height: 49px;
+
+  font-size: 2rem;
+  color: #86dbe4;
+
+  margin: 20px auto auto;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: 800;
+}
