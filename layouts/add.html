@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, width=device-width, viewport-fit=cover"
+    />
+    <link rel="shortcut icon" href="../png/icon.png" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/common_style.css" />
+    <link rel="stylesheet" href="../styles/add.css" />
+    <title>Track Plants Water</title>
+  </head>
+  <body>
+    <div class="wrapper hidden">
+      <a href="./main.html" class="home"></a>
+      <a href="./main.html" class="save">Save the plant</a>
+
+      <div class="logos">
+        <div class="logo logo_1 block">
+          <img src="../png/logo_1.png" alt="logo" />
+        </div>
+
+        <div class="logo logo_2 block">
+          <img src="../png/logo_2.png" alt="logo" />
+        </div>
+
+        <div class="logo logo_3 block">
+          <img src="../png/logo_3.png" alt="logo" />
+        </div>
+      </div>
+
+      <div class="choice block"></div>
+
+      <input type="text" placeholder="Enter plant's name" class="input_name" />
+
+      <div class="notifications"></div>
+
+      <div class="button block">Add notification</div>
+
+      <div class="form">
+        <div class="form_title">Choose type</div>
+
+        <div class="option option_1">
+          <img src="../png/water.png" alt="option" data-option="water" />
+          <div>Water</div>
+        </div>
+
+        <div class="option option_2">
+          <img src="../png/energy.png" alt="option" data-option="energy" />
+          <div>Fertilizer</div>
+        </div>
+
+        <div class="form_title form_title_2">Enter period</div>
+        <input type="number" value="24" class="input_period" />
+
+        <div class="form_button block">Submit</div>
+      </div>
+    </div>
+
+    <script src="../scripts/add.js"></script>
+  </body>
+</html>

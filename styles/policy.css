@@ -1,14 +1,11 @@
 .wrapper {
-  padding-top: 30px;
-  padding-bottom: 40px;
-
   height: auto;
+  color: #4e342e;
 }
 
 .text {
   width: 90%;
   margin: 20px auto;
-  font-family: "Inter";
 
   font-weight: 400;
   text-align: left;
@@ -19,14 +16,9 @@
   height: 49px;
 
   font-size: 2rem;
-  color: #86dbe4;
-
-  margin: 20px auto auto;
-  background: #ffffff;
+  color: #fbc02d;
+  margin: 20px auto;
+  background: #4e342e;
   border-radius: 20px;
 }
 
-.header {
-  font-size: 2rem;
-  font-weight: 800;
-}

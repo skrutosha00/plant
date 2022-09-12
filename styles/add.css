@@ -1,0 +1,212 @@
+.wrapper {
+  height: 100vh;
+}
+
+.save {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+
+  font-size: 20px;
+  color: #4e342e;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 80px auto auto;
+
+  width: 80%;
+  max-width: 480px;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+
+  border: 4px solid #4e342e;
+  border-radius: 50%;
+
+  transition: background-color 0.5s ease;
+}
+
+.logo_active {
+  background-color: white;
+}
+
+.logo img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.choice {
+  width: 146px;
+  height: 146px;
+
+  margin: 40px auto auto;
+  background: linear-gradient(180deg, #fdfaf0 0%, #f3e7bb 100%);
+  box-shadow: inset 0px 0px 4px 3px #f1d87e;
+  border: 10px white solid;
+  border-radius: 9px;
+}
+
+.choice_pic {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.input_name {
+  width: 200px;
+  height: 40px;
+
+  margin: 40px auto auto;
+  padding: 0 10px;
+
+  font-size: 20px;
+  color: #4e342e;
+  background-color: #fbc02d;
+
+  border-radius: 9px;
+  border: 2px solid #4e342e;
+
+  outline: none;
+}
+
+.input_name::placeholder {
+  color: #4e342e;
+}
+
+.button {
+  width: 250px;
+  height: 65px;
+
+  margin: 30px auto;
+  border-radius: 20px;
+  background-color: #4e342e;
+
+  font-size: 20px;
+  color: #fbc02d;
+}
+
+.form {
+  position: absolute;
+  left: -50%;
+  top: 50%;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+
+  padding: 0 50px;
+
+  color: black;
+  background-color: #fff;
+  border-radius: 9px;
+
+  transition: left 0.5s ease;
+}
+
+.form_title {
+  margin: 20px auto;
+
+  text-align: left;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.option {
+  width: 180px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 50px;
+
+  transition: background-color 0.5s ease;
+}
+
+.option img {
+  width: 15px;
+}
+
+.chosen {
+  background-color: gray;
+}
+
+.form_title_2 {
+  margin-top: 35px;
+}
+
+.input_period {
+  display: block;
+
+  width: 160px;
+  height: 40px;
+
+  margin: 20px auto;
+  padding: 0 10px;
+
+  font-size: 20px;
+
+  border: 2px solid black;
+  border-radius: 9px;
+
+  outline: none;
+}
+
+.form_button {
+  width: 180px;
+  height: 50px;
+
+  font-size: 20px;
+  font-weight: 800;
+
+  border-radius: 50px;
+  border: 3px solid black;
+
+  margin: 20px auto;
+}
+
+.notifications {
+  margin: 20px auto;
+}
+
+.notification {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 250px;
+  height: 40px;
+
+  margin: auto auto 20px;
+}
+
+.bell_pic,
+.bin_pic {
+  display: flex;
+  max-width: 16px;
+}
+
+.notification_block {
+  position: relative;
+
+  width: 80%;
+  height: 100%;
+
+  background-color: #4e342e;
+  color: #fbc02d;
+  border-radius: 14px;
+}
+
+.type_pic {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 14px;
+}

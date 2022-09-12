@@ -1,12 +1,21 @@
 @font-face {
-  font-family: "Inter";
-  src: url("../fonts/Inter-V.ttf");
+  font-family: "Roboto";
+  src: url("../fonts/Roboto.ttf");
+}
+
+@font-face {
+  font-family: "Script";
+  src: url("../fonts/scriptmtbold.ttf");
 }
 
 body {
-  background: linear-gradient(180deg, #11afd0 0%, #86dbe4 100%);
+  background: radial-gradient(
+    107.53% 50% at 50% 50%,
+    #fbc02d 0%,
+    #f3a100 90.4%
+  );
 
-  font-family: "Inter";
+  font-family: "Roboto";
   font-style: normal;
 
   color: #fff;
@@ -43,6 +52,21 @@ a {
   justify-content: center;
 }
 
-.none {
-  display: none !important;
+.home {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+
+  width: 20px;
+  height: 20px;
+
+  background: url(../png/cross.png) center/100%;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: 800;
+  font-family: "Script";
+
+  margin: 20px auto;
 }

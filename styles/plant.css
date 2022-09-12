@@ -1,0 +1,88 @@
+.header {
+  font-size: 40px;
+  font-family: "Script";
+  color: #4e342e;
+
+  margin: 45px auto auto;
+}
+
+.plants {
+  margin: auto;
+  width: 320px;
+}
+
+.plant_cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 35px auto;
+}
+
+.plant_cont_pic {
+  width: 89.42px;
+  height: 89.42px;
+
+  background: linear-gradient(180deg, #fdfaf0 0%, #f3e7bb 100%);
+  box-shadow: inset 0px 0px 2.79452px 2.09589px #f1d87e;
+  border: 7px #fff solid;
+  border-radius: 6.28767px;
+}
+
+.plant_pic {
+  max-height: 80%;
+  max-width: 80%;
+}
+
+.plant_name {
+  font-size: 20px;
+  font-weight: 800;
+  text-align: left;
+  color: #4e342e;
+
+  margin-bottom: 20px;
+}
+
+.bar {
+  position: relative;
+
+  width: 200px;
+  height: 30px;
+
+  border-radius: 50px;
+  background-color: #4e342e;
+}
+
+.inner-bar {
+  position: absolute;
+  left: 2.5%;
+  top: 10%;
+
+  width: 95%;
+  height: 80%;
+
+  border-radius: 50px;
+  transition: width 0.1s linear;
+}
+
+.inner-bar_water {
+  background-color: #52b6ff;
+}
+
+.inner-bar_energy {
+  background-color: #ff00f5;
+}
+
+.bar_text {
+  margin: 20px auto 10px;
+
+  color: #4e342e;
+  text-align: left;
+}
+
+.info {
+  font-size: 24px;
+  color: #4e342e;
+
+  margin: 45px auto auto;
+}
