@@ -1,5 +1,6 @@
 .wrapper {
   height: auto;
+  overflow: auto;
   color: #4e342e;
 }
 
@@ -21,4 +22,3 @@
   background: #4e342e;
   border-radius: 20px;
 }
-
